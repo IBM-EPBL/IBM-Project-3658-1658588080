@@ -3,7 +3,7 @@ from wtforms import Form, StringField, TextAreaField, PasswordField, validators,
 import ibm_db
 import re
 
-app = Flask(__name__)
+
 app.secret_key=' '
 
 #connect db2
